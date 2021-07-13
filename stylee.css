@@ -1,0 +1,75 @@
+
+
+
+/*--------------------------
+ Conmebol style  is starts 
+---------------------------*/
+
+
+.sec-conmebol{
+    display: flex;
+}
+
+.half-div{
+
+    width: 50%;
+}
+.half-div h1{
+    font-size: 64px;
+}
+.half-div a{
+    background-color: #E02C6D;
+    padding: 11px 42px;
+    border: 44px 168px #E02C6D;
+}
+.half-div img{
+    width: 556px;
+    height: 438px;
+
+}
+
+/*--------------------------
+ Player style  is starts 
+---------------------------*/
+
+.sec-players{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 75px;
+    
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width: 330px;
+    height: 474px;
+    /* border: 2px solid blue; */
+}
+
+.player img{
+    width: 300px;
+    height: 256px;
+}
+
+.hover-single:hover{
+    border: 1px solid blue;
+}
+
+.hover-together{
+    margin-top: 27px;
+}
+
+.hover-together:hover{
+    border: 1px solid blue;
+}
+
