@@ -17,6 +17,8 @@ body{
 
 .sec-conmebol{
     display: flex;
+    background-color: rgb(45, 37, 160);
+    padding: 50px 150px;
 }
 
 .half-div{
@@ -25,16 +27,31 @@ body{
 }
 .half-div h1{
     font-size: 64px;
+    color: white;
+}
+.half-div h1:hover{
+
+    text-decoration: 3px underline rgb(141, 141, 143);
+    
 }
 .half-div a{
+    text-decoration: none;
+    color: white;
     background-color: #E02C6D;
     padding: 11px 42px;
     border: 44px 168px #E02C6D;
 }
-.half-div img{
-    width: 556px;
-    height: 438px;
 
+.half-div a:hover{
+    border: 3px solid rgb(141, 141, 143);
+}
+
+.half-div img{
+    width: 100%;
+    
+}
+.half-div img:hover{
+    border: 3px solid rgb(141, 141, 143);
 }
 
 /*--------------------------
@@ -95,6 +112,13 @@ footer{
 footer img{
     width: 483px;
     height: 110px;
+}
+
+.icon i{
+    margin-right: 7px;
+    margin-left: 7px;
+    height: 32px;
+    width: 32px;
 }
 
 footer p{
