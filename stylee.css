@@ -47,7 +47,8 @@ body{
 }
 
 .half-div img{
-    width: 100%;
+    width: 556px;
+    height: 438px;
     
 }
 .half-div img:hover{
@@ -123,5 +124,47 @@ footer img{
 
 footer p{
     font-size: 18px;
+}
+
+
+/*------------------
+For Mobile Screen 
+------------------*/
+
+@media only screen and (max-width:668px) {
+    .sec-conmebol{
+        padding: 0;
+        flex-direction: column;
+        padding-left: 16px;
+    }
+    .half-div{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .half-div h1{
+        font-size: 36px;
+    }
+    .half-div a{
+        padding: 6px;
+    }
+    .half-div img{
+        width: 329px;
+        height: 259.17px;
+        
+    }
+
+    /*--------------------------
+    Player style  is starts 
+    ---------------------------*/
+
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 24px;
+    }
+
+    
+
+
+    
 }
 
