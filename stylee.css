@@ -394,3 +394,57 @@ For Mobile Screen
 
 }
 
+/*---------------------
+  For tablet devices 
+ --------------------*/
+
+@media only screen and (min-width:669px) and (max-width:992px) {
+
+    /* heading starts */
+
+    header{
+        width: 100%;
+    }
+
+    nav{
+        padding: 20px;
+    }
+
+    /*---------------------
+     Conmebol style starts 
+     ----------------------*/
+
+    .sec-conmebol{
+        padding: 10px;
+    }
+
+    .half-div img{
+        width: 100%;
+        
+    }
+
+    /* Players style add */
+
+    .players{
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 27px;
+    }
+
+    /* upcoming matches is starts */
+
+    .matches{
+        flex-direction: column;
+        align-items: center;
+    }
+    .match{
+        margin-bottom: 30px;
+    }
+
+    /* Games and features is starts */
+
+    .games{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
