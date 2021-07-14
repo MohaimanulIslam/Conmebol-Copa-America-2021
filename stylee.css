@@ -369,6 +369,14 @@ For Mobile Screen
     }
 
     /* ----------------------------- 
+        Highlight is starts  
+    -------------------------------- */
+
+    .highlight-sec{
+        margin-left: 15px;
+    }
+
+    /* ----------------------------- 
         Upcoming Matches is starts  
     -------------------------------- */
     .upcoming{
