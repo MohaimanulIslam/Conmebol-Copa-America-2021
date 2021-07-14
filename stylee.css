@@ -7,8 +7,56 @@ Font style added
 
 
 body{
+
     font-family: 'Poppins', sans-serif;
 }
+
+header{
+    background-color: rgb(45, 37, 160);
+}
+
+/*-----------------------
+    Nav style is starts 
+ -----------------------*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 94px;
+    width: 100%;
+    
+}
+
+.nav-catagory{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-catagory a{
+    margin-right: 56px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+}
+
+.login a{
+
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 11px 42px;
+    border: 44px 168px #E02C6D; 
+    
+}
+
 
 /*--------------------------
  Conmebol style  is starts 
@@ -17,7 +65,6 @@ body{
 
 .sec-conmebol{
     display: flex;
-    background-color: rgb(45, 37, 160);
     padding: 50px 150px;
 }
 
@@ -88,8 +135,19 @@ body{
     height: 256px;
 }
 
+.player h3{
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.player p{
+    margin-top: 0px;
+    margin-bottom: 18px;
+}
+
 .hover-single:hover{
-    border: 1px solid blue;
+    border: 2px solid rgb(141, 141, 143);
 }
 
 .hover-together{
@@ -97,7 +155,7 @@ body{
 }
 
 .hover-together:hover{
-    border: 1px solid blue;
+    border: 2px solid rgb(141, 141, 143);
 }
 
 /* ----------------------------- 
@@ -108,7 +166,7 @@ body{
     background-color: white;
     margin: 60px;
 }
-.highlight-div h1{
+.highlight-div h2{
     text-decoration: none;
     font-size: 48px;
     color: #000;
@@ -230,6 +288,8 @@ footer{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 63px;
+    margin-top: 100px;
 }
 
 footer img{
@@ -238,10 +298,11 @@ footer img{
 }
 
 .icon i{
+    background-color: wheat;
+    padding: 8px;
     margin-right: 7px;
     margin-left: 7px;
-    height: 32px;
-    width: 32px;
+    border-radius: 50px;
 }
 
 footer p{
@@ -255,11 +316,28 @@ For Mobile Screen
 
 @media only screen and (max-width:668px) {
 
+
+    /*-------------------
+     nav bar style added 
+     --------------------*/
+
+    nav{
+        flex-direction: column;
+        height: auto;
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .nav-catagory{
+        display: flex;
+        flex-direction: column;
+    }
+
     /*-------------------------------
      For Conmebol and Highlight style  
      --------------------------------*/
 
-     
+
     .sec-conmebol{
         padding: 0;
         flex-direction: column;
