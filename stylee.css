@@ -6,9 +6,14 @@ Font style added
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
+/*--------------------
+ Body style is start 
+ --------------------*/
+
 body{
 
     font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
 }
 
 header{
@@ -131,8 +136,9 @@ nav{
 }
 
 .player img{
-    width: 300px;
-    height: 256px;
+    width: 100%;
+    /* height: 256px; */
+    margin: 0 auto;
 }
 
 .player h3{
