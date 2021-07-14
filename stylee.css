@@ -100,6 +100,46 @@ body{
     border: 1px solid blue;
 }
 
+/* ----------------------------- 
+Upcoming Matches is starts  
+-------------------------------- */
+.upcoming{
+    margin: 70px;
+}
+.games{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    height: 230px;
+    width: 400px;
+    box-shadow: 0px 0px 20px rgb(45, 37, 160);
+}
+
+.game-feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.game-feature img{
+    width: 150px;
+    height: 150px;
+}
+
+.game-des{
+    margin: 0%;
+    background-color: rgba(45, 37, 160, 0.842);
+    color: white;
+}
+
 /*--------------------------
  Footer style  is starts 
 ---------------------------*/
